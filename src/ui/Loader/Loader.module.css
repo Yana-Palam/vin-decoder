@@ -1,0 +1,16 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+}
+
+.icon {
+  color: var(--color-primary);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

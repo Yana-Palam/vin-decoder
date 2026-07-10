@@ -1,0 +1,11 @@
+.error {
+  margin-bottom: 24px;
+  padding: 16px;
+
+  border-radius: var(--radius-md);
+
+  border: 1px solid #dc2626;
+  background: #dc26261a;
+
+  color: var(--color-error);
+}

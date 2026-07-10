@@ -1,0 +1,28 @@
+:root {
+  /* Colors */
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+
+  --color-text: #1f2937;
+  --color-text-secondary: #6b7280;
+
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+
+  --color-border: #d1d5db;
+
+  --color-error: #dc2626;
+
+  /* Radius */
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  /* Shadow */
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.06);
+
+  /* Layout */
+  --container-width: 1100px;
+
+  /* Transition */
+  --transition: 0.2s ease;
+}

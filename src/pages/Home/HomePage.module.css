@@ -1,0 +1,14 @@
+.title {
+  margin-bottom: 8px;
+}
+
+.description {
+  margin-bottom: 32px;
+  color: var(--color-text-secondary);
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

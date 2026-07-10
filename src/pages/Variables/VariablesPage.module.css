@@ -1,0 +1,18 @@
+.title {
+  margin-bottom: 8px;
+}
+
+.description {
+  margin-bottom: 24px;
+  color: var(--color-text-secondary);
+}
+
+.search {
+  margin-bottom: 16px;
+}
+
+.counter {
+  margin-bottom: 24px;
+  color: var(--color-text-secondary);
+  font-size: 14px;
+}

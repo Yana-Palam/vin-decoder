@@ -1,32 +1,72 @@
-# React + TypeScript + Vite
+# VIN Decoder
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React + TypeScript SPA that allows users to decode vehicle VIN numbers using the official NHTSA API, browse available vehicle variables, and view detailed variable descriptions.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Decode vehicle VIN numbers
+- VIN validation
+- Display decoded vehicle information
+- Recent search history (last 3 VINs stored in Local Storage)
+- Browse vehicle variables
+- Search variables
+- View variable details
+- Responsive design
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- React
+- TypeScript
+- Vite
+- React Router
+- TanStack Query
+- Axios
+- React Hook Form
+- Zod
+- DOMPurify
+- Lucide React
+- CSS Modules
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Getting Started
+
+### Install dependencies
+
+```bash
+npm install
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### Start development server
+
+```bash
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Run linter
+
+```bash
+npm run lint
+```
+
+## Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+VITE_API_BASE_URL=https://vpic.nhtsa.dot.gov/api
+```
+
+## Data Source
+
+Official NHTSA Vehicle Product Information Catalog (vPIC) API:
+
+https://vpic.nhtsa.dot.gov/api/

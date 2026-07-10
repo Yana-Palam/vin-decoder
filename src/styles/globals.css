@@ -1,0 +1,9 @@
+@import "./reset.css";
+@import "./variables.css";
+@import "./typography.css";
+
+main {
+  width: min(var(--container-width), calc(100% - 32px));
+  margin: 0 auto;
+  padding: 40px 0 60px;
+}
